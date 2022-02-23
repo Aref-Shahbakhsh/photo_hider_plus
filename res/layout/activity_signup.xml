@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.p060v7.widget.Toolbar android:id="@+id/toollbar_signup" android:background="@color/Toolbar_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="32dp" android:textColor="@color/White" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/Sighn_up"/>
+        </android.support.p060v7.widget.Toolbar>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ln_signup" android:background="@color/White" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="40dp" android:layout_marginTop="120dp" android:layout_marginRight="40dp" android:layout_marginBottom="80dp">
+            <TextView android:textSize="24dp" android:textColor="#000" android:layout_gravity="center" android:padding="10dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Create_your_account"/>
+            <com.github.florent37.materialtextfield.MaterialTextField android:layout_width="match_parent" android:layout_height="wrap_content" app:mtf_cardCollapsedHeight="4dp" app:mtf_image="@drawable/password_new" app:mtf_labelColor="#666" app:mtf_openKeyboardOnFocus="true">
+                <EditText android:id="@+id/edt_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password"/>
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField android:layout_width="match_parent" android:layout_height="wrap_content" app:mtf_image="@drawable/confirm_new" app:mtf_labelColor="#666">
+                <EditText android:id="@+id/edt_confirm_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/confirm_password"/>
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField android:layout_width="match_parent" android:layout_height="wrap_content" app:mtf_image="@drawable/key_new" app:mtf_labelColor="#666">
+                <EditText android:id="@+id/edt_keyword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/Email"/>
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <Button android:textColor="#08534e" android:id="@+id/btn_signup_submit" android:background="@drawable/style_btn_start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="32dp" android:text="@string/Submit"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

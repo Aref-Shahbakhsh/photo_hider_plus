@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p060v7.widget.Toolbar android:id="@+id/toolbar_play" android:background="@color/Toolbar_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="32dp" android:textColor="@color/White" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/App_name"/>
+    </android.support.p060v7.widget.Toolbar>
+    <Button android:textSize="@dimen/size_16dp" android:textColor="@color/White" android:id="@+id/btn_Start" android:background="@drawable/style_btn_start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/Start" android:layout_centerInParent="true"/>
+</RelativeLayout>

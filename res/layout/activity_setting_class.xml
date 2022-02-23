@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#7e7373" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p060v7.widget.CardView android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" app:cardCornerRadius="8dp">
+        <TextView android:textSize="20dp" android:textColor="@color/White" android:id="@+id/tv_activity_setting_change_password" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:text="@string/Change_password"/>
+    </android.support.p060v7.widget.CardView>
+    <View android:background="#837e7e" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <android.support.p060v7.widget.CardView android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" app:cardCornerRadius="8dp">
+        <TextView android:textSize="20dp" android:textColor="@color/White" android:id="@+id/tv_activity_setting_change_keyword" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:text="@string/Change_keyword"/>
+    </android.support.p060v7.widget.CardView>
+    <View android:background="#837e7e" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <android.support.p060v7.widget.CardView android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" app:cardCornerRadius="8dp">
+        <TextView android:textSize="20dp" android:textColor="@color/White" android:id="@+id/tv_activity_setting_change_numpic" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:text="@string/change_numpic"/>
+    </android.support.p060v7.widget.CardView>
+    <View android:background="#837e7e" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

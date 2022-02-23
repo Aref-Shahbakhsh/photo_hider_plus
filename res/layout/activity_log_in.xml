@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p060v7.widget.Toolbar android:id="@+id/toolbar_log_in" android:background="@color/Toolbar_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30dp" android:textColor="@color/White" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/Log_in"/>
+        </android.support.p060v7.widget.Toolbar>
+        <LinearLayout android:orientation="vertical" android:background="@color/White" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="32dp" android:layout_marginTop="132dp" android:layout_marginRight="32dp" android:layout_marginBottom="32dp">
+            <com.github.florent37.materialtextfield.MaterialTextField android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="84dp" app:mtf_image="@drawable/password_new" app:mtf_labelColor="#666">
+                <EditText android:id="@+id/Log_in_edt_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password" android:maxLines="1" android:maxLength="20" android:inputType="textPassword"/>
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <TextView android:layout_gravity="end" android:id="@+id/login_tv_forget_password" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Forget_your_password"/>
+            <Button android:layout_gravity="center" android:id="@+id/login_btn_submit" android:background="@drawable/style_btn_start" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/Submit" android:onClick="SUBMIT"/>
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_finger_print"/>
+        </LinearLayout>
+        <ImageView android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="90dp" android:src="@drawable/default_avatar" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

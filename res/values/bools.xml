@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="default_bmb_autoBoom">false</bool>
+    <bool name="default_bmb_autoBoomImmediately">false</bool>
+    <bool name="default_bmb_autoHide">true</bool>
+    <bool name="default_bmb_backPressListened">true</bool>
+    <bool name="default_bmb_background_effect">true</bool>
+    <bool name="default_bmb_boomInWholeScreen">true</bool>
+    <bool name="default_bmb_cacheOptimization">true</bool>
+    <bool name="default_bmb_cancelable">true</bool>
+    <bool name="default_bmb_draggable">false</bool>
+    <bool name="default_bmb_inFragment">false</bool>
+    <bool name="default_bmb_inList">false</bool>
+    <bool name="default_bmb_orientationAdaptable">false</bool>
+    <bool name="default_bmb_ripple_effect">true</bool>
+    <bool name="default_bmb_shadow_effect">true</bool>
+    <bool name="default_bmb_use3DTransformAnimation">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+</resources>
