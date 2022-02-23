@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.2" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.shahbakhsh.aref.photohider.jadid" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>
+    <application android:theme="@style/AppTheme" android:label="@string/App_name" android:icon="@mipmap/appicon" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.About_me"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.Setting_class"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.rv_photo"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.Play">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.Signup"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.Log_in"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.Basic_photo"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.model_photo.Show_photo_adapter"/>
+        <activity android:name="com.shahbakhsh.aref.photohider.jadid.Dialog_forget_password_activity"/>
+    </application>
+</manifest>
