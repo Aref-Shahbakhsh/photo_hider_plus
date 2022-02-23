@@ -6,6 +6,6 @@ you can download the application from the below link.
 http://cafebazaar.ir/app/?id=com.shahbakhsh.aref.photohider.jadid
 ```
 # Usage  
-copy the source code and place  in your project , you dont need to resource file  becuse i dont use any special resource 
+copy the source code and place  in your project , you dont need to resource file  becuse i dont use any special resource.
 
 enjoy !
